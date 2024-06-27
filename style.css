@@ -1,0 +1,42 @@
+.container-fluid a:hover{
+    text-decoration: underline 2px #C92071;
+    color: #C92071;
+  }
+
+  #busca:focus{
+    box-shadow: 5px 5px  #C92071;
+    border-color: #C92071;
+  }
+
+.footer-site{
+    background-color: #1f1f1f;
+    color: white;
+
+}
+
+.coluna{
+    margin-right: 200px;
+}
+
+.col{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 0;
+}
+
+.titulo-footer{
+    font-size: 18px;
+}
+.icones-footer{
+    display: flex;
+    gap: 20px;
+    font-size: 25px;
+}
+hr{
+    margin: 0 80px;
+}
+.copy-footer{
+    text-align: center;
+    padding: 20px;
+
+}
