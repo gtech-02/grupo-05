@@ -1,3 +1,13 @@
+.container-fluid a:hover{
+    text-decoration: underline 2px #C92071;
+    color: #C92071;
+  }
+
+  #busca:focus{
+    box-shadow: 5px 5px  #C92071;
+    border-color: #C92071;
+  }
+
 .footer-site{
     background-color: #1f1f1f;
     color: white;
