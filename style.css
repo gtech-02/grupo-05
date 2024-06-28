@@ -3,9 +3,31 @@
     color: #C92071;
   }
 
+  .logo-header {
+    margin-left: 20px
+  }
+
   #busca:focus{
     box-shadow: 5px 5px  #C92071;
     border-color: #C92071;
+  }
+
+  #cad {
+    margin-right: 15px;
+    margin-top: 7px;
+    color:#474747 
+  }
+
+  #mini-cart{
+    margin-right: 35px
+  }
+
+  .menu {
+    margin-left: 45px
+  }
+
+  .carousel-inner {
+    border-radius: 40px
   }
 
 .footer-site{
@@ -24,6 +46,7 @@
     padding: 0;
 }
 
+
 .titulo-footer{
     font-size: 18px;
 }
@@ -38,5 +61,45 @@ hr{
 .copy-footer{
     text-align: center;
     padding: 20px;
+
+}
+
+#busca {
+    width: 700px;
+}
+
+.botoes-header button {
+    border:none;
+    background-color:#C92071;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    width: 114px;
+    height: 40px;
+
+}
+
+@media (max-width: 770px) {
+    #busca {
+       width: 20%;
+    }
+
+    .logo-header {
+        width: 15%;
+    }
+
+    .campo-busca{
+        width: 20%;
+    }
+
+    .botoes-header{
+        width: 5%;
+    }
+
+    #cad {
+        margin-right: 15px;
+        margin-top: 7px;
+        color:#474747"
+    }
 
 }
