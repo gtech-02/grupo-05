@@ -1,3 +1,7 @@
+.nav-header{
+    padding: 15px;
+}
+
 .container-fluid a:hover{
     text-decoration: underline 2px #C92071;
     color: #C92071;
@@ -7,10 +11,34 @@
     margin-left: 20px
   }
 
+  #busca {
+    width: 700px;
+  }
   #busca:focus{
     box-shadow: 5px 5px  #C92071;
     border-color: #C92071;
   }
+
+  .button-nav{
+    border: none;
+    background: none;
+  }
+
+  .button-nav img{
+    width: 20px;
+    height: 20px;
+  }
+
+  .botoes-header button {
+    border:none;
+    background-color:#C92071;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    width: 114px;
+    height: 40px;
+
+}
 
   #cad {
     margin-right: 15px;
@@ -28,7 +56,15 @@
 
   .carousel-inner {
     border-radius: 40px
+}
+
+  .carrosel{
+    margin-top: 20px;
+    margin-bottom: 20px;
+
   }
+
+
 
 .footer-site{
     background-color: #1f1f1f;
@@ -64,20 +100,6 @@ hr{
 
 }
 
-#busca {
-    width: 700px;
-}
-
-.botoes-header button {
-    border:none;
-    background-color:#C92071;
-    color: white;
-    font-weight: bold;
-    border-radius: 4px;
-    width: 114px;
-    height: 40px;
-
-}
 
 @media (max-width: 770px) {
     #busca {
