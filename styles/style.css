@@ -14,10 +14,15 @@
   #busca {
     width: 700px;
   }
+  #busca:hover{
+    box-shadow: 5px 5px  #C92071;
+    border-color: #C92071;
+  }
   #busca:focus{
     box-shadow: 5px 5px  #C92071;
     border-color: #C92071;
   }
+
 
   .button-nav{
     border: none;
