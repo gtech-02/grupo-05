@@ -58,6 +58,11 @@
     border-radius: 40px
 }
 
+.carousel-inner img{
+  height: 681px;
+  width: 1440px;
+}
+
   .carrosel{
     margin-top: 20px;
     margin-bottom: 20px;
