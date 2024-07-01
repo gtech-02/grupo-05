@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Layout</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
@@ -14,47 +15,156 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./styles/style.css"/>
 
-    <title>Layout</title>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
   </head>
   <body>
     <header>
-        <nav style="padding: 15px;" class="navbar bg-body-tertiary">
-            <div class="container-fluid">
-              <img style="margin-left: 20px"; src="images/logo-header.svg">
-              <form class="d-flex" role="search">
-                <input id="busca" style="width: 700px;" class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
-                <button type="submit" for="" style="border: none; background:none;"><img style="width: 20px; height: 20px;" src="images/icon-lupa.png"></button> 
-              </form>
-              
-                  <form class="d-flex" role="search">
-                    <a href="#" style="margin-right: 15px; margin-top: 7px; color:#474747" id="cad">Cadastre-se</a>
-                    <button style=" border:none; background-color: #C92071; color: white; font-weight: bold; border-radius: 4px; width: 114px; height: 40px;" class="btn btn-outline-success" type="submit">Entrar</button>
-                  </form>
+      <nav class="navbar bg-body-tertiary nav-header">
+        <div class="container-fluid">
+          <img class="logo-header" src="images/logo-header.svg" />
+          <form class="d-flex campo-busca" role="search">
+            <input
+              id="busca"
+              class="form-control me-2"
+              type="search"
+              placeholder="Pesquisar"
+              aria-label="Pesquisar"
+            />
+            <button class="button-nav" type="submit" for="">
+              <img src="images/icon-lupa.png" />
+            </button>
+          </form>
 
-                 <a href="#" style="margin-right: 35px;" ><img src="images/mini-cart.svg"></a>
+          <div class="d-flex botoes-header" role="search">
+            <a href="#" id="cad">Cadastre-se</a>
+            <button class="btn btn-outline-success" type="submit">
+              Entrar
+            </button>
+          </div>
+
+          <a href="#" id="mini-cart"><img src="images/mini-cart.svg" /></a>
+        </div>
+      </nav>
+
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid menu">
+          <a class="navbar-brand" href="#">Home</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" aria-current="page" href="#">Produtos</a>
+              <a class="nav-link" href="#">Categoria</a>
+              <a class="nav-link" href="#">Meus Pedidos</a>
             </div>
-        </nav>
+          </div>
+        </div>
+      </nav>
+    </header>
 
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div style="margin-left: 45px; " class="container-fluid">
-              <a class="navbar-brand" href="#">Home</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                  <a class="nav-link" aria-current="page" href="#">Produtos</a>
-                  <a class="nav-link" href="#">Categoria</a>
-                  <a class="nav-link" href="#">Meus Pedidos</a>
-                </div>
+    <gallery>
+      <div
+        id="carouselExampleFade"
+        class="carousel slide carousel-fade carrosel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="images/home-slide-7"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/home-slide-6"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/home-slide-1.jpeg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/home-slide-9.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/home-slide-10.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleFade"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleFade"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </gallery>
+
+    <section>
+      <div class="section-main">
+        <h2 class="section-title">Coleções em destaque</h2>
+
+        <div class="cards">
+              <div class="card">
+                <img src="./images/collection-1.png" alt="">
+                <p class="msg-promo">30% OFF</p>
+                <button class="btn-section">Comprar</button>
               </div>
-            </div>
-          </nav>
-            
-          </header>
+
+
+              
+              <div class="card">
+                <img src="./images/collection-2.png" alt="">
+                <p class="msg-promo">30% OFF</p>
+                <button class="btn-section">Comprar</button>
+              </div>
+              <div class="card">
+                <img src=".//images/collection-3.png" alt="">
+                <p class="msg-promo">30% OFF</p>
+                <button class="btn-section">Comprar</button>
+              </div>
+              
+        </div>
+      </div>
+      <h3>Coleções em destaque</h3>
+    </section>
+
 
     <footer class="footer-site">
       <div class="container">
@@ -118,4 +228,5 @@
     </body>
 
     
+
 </html>

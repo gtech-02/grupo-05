@@ -14,47 +14,65 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/search.css">
 
     <title>Layout</title>
 
   </head>
   <body>
     <header>
-        <nav style="padding: 15px;" class="navbar bg-body-tertiary">
-            <div class="container-fluid">
-              <img style="margin-left: 20px"; src="images/logo-header.svg">
-              <form class="d-flex" role="search">
-                <input id="busca" style="width: 700px;" class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
-                <button type="submit" for="" style="border: none; background:none;"><img style="width: 20px; height: 20px;" src="images/icon-lupa.png"></button> 
-              </form>
-              
-                  <form class="d-flex" role="search">
-                    <a href="#" style="margin-right: 15px; margin-top: 7px; color:#474747" id="cad">Cadastre-se</a>
-                    <button style=" border:none; background-color: #C92071; color: white; font-weight: bold; border-radius: 4px; width: 114px; height: 40px;" class="btn btn-outline-success" type="submit">Entrar</button>
-                  </form>
+      <nav class="navbar bg-body-tertiary nav-header">
+        <div class="container-fluid">
+          <img class="logo-header" src="images/logo-header.svg" />
+          <form class="d-flex campo-busca" role="search">
+            <input
+              id="busca"
+              class="form-control me-2"
+              type="search"
+              placeholder="Pesquisar"
+              aria-label="Pesquisar"
+            />
+            <button class="button-nav" type="submit" for="">
+              <img src="images/icon-lupa.png" />
+            </button>
+          </form>
 
-                 <a href="#" style="margin-right: 35px;" ><img src="images/mini-cart.svg"></a>
-            </div>
-        </nav>
+          <div class="d-flex botoes-header" role="search">
+            <a href="#" id="cad">Cadastre-se</a>
+            <button class="btn btn-outline-success" type="submit">
+              Entrar
+            </button>
+          </div>
 
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div style="margin-left: 45px; " class="container-fluid">
-              <a class="navbar-brand" href="#">Home</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                  <a class="nav-link" aria-current="page" href="#">Produtos</a>
-                  <a class="nav-link" href="#">Categoria</a>
-                  <a class="nav-link" href="#">Meus Pedidos</a>
-                </div>
-              </div>
+          <a href="#" id="mini-cart"><img src="images/mini-cart.svg" /></a>
+        </div>
+      </nav>
+
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid menu">
+          <a class="navbar-brand" href="#">Home</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" aria-current="page" href="#">Produtos</a>
+              <a class="nav-link" href="#">Categoria</a>
+              <a class="nav-link" href="#">Meus Pedidos</a>
             </div>
-          </nav>
-            
-          </header>
+          </div>
+        </div>
+      </nav>
+    </header>
         <footer class="footer-site">
          <div class="container">
         <div class="row">
