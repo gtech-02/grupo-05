@@ -1,137 +1,16 @@
-.nav-header{
-    padding: 15px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
-.container-fluid a:hover{
-    text-decoration: underline 2px #C92071;
-    color: #C92071;
-  }
-
-  .logo-header {
-    margin-left: 20px
-  }
-
-  #busca {
-    width: 700px;
-  }
-  #busca:hover{
-    box-shadow: 5px 5px  #C92071;
-    border-color: #C92071;
-  }
-  #busca:focus{
-    box-shadow: 5px 5px  #C92071;
-    border-color: #C92071;
-  }
+@import url(./paginaInicial/header.css);
+@import url(./paginaInicial/footer.css);
+@import url(./paginaInicial/gallery.css);
+@import url(./paginaInicial/section.css);
 
 
-  .button-nav{
-    border: none;
-    background: none;
-  }
-
-  .button-nav img{
-    width: 20px;
-    height: 20px;
-  }
-
-  .botoes-header button {
-    border:none;
-    background-color:#C92071;
-    color: white;
-    font-weight: bold;
-    border-radius: 4px;
-    width: 114px;
-    height: 40px;
-
-}
-
-  #cad {
-    margin-right: 15px;
-    margin-top: 7px;
-    color:#474747 
-  }
-
-  #mini-cart{
-    margin-right: 35px
-  }
-
-  .menu {
-    margin-left: 45px
-  }
-
-  .carousel-inner {
-    border-radius: 40px
-}
-
-.carousel-inner img{
-  height: 681px;
-  width: 1440px;
-}
-
-  .carrosel{
-    margin-top: 20px;
-    margin-bottom: 20px;
-
-  }
-
-
-
-.footer-site{
-    background-color: #1f1f1f;
-    color: white;
-
-}
-
-.coluna{
-    margin-right: 200px;
-}
-
-.col{
-    margin-bottom: 20px;
-    margin-top: 20px;
-    padding: 0;
+*{
+  font-family: "Inter";
 }
 
 
-.titulo-footer{
-    font-size: 18px;
-}
-.icones-footer{
-    display: flex;
-    gap: 20px;
-    font-size: 25px;
-}
-hr{
-    margin: 0 80px;
-}
-.copy-footer{
-    text-align: center;
-    padding: 20px;
-
-}
 
 
-@media (max-width: 770px) {
-    #busca {
-       width: 20%;
-    }
 
-    .logo-header {
-        width: 15%;
-    }
-
-    .campo-busca{
-        width: 20%;
-    }
-
-    .botoes-header{
-        width: 5%;
-    }
-
-    #cad {
-        margin-right: 15px;
-        margin-top: 7px;
-        color:#474747"
-    }
-
-}
