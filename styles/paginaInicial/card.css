@@ -1,0 +1,67 @@
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px; /* Espaçamento entre os cards */
+  }
+  
+  .product-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .product-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .product-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .product-card p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .product-card button {
+    background-color: #fff;
+    color: #C92071;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: 1px, solid, #C92071ed;
+  }
+  
+  .product-card button:hover {
+    background-color: #C92071;
+    color: #F5F5F5;
+  }
+  
+  .centro{
+    text-align: center;
+    padding: 10px;
+    font-style: bold;
+  }
+
+  /* .destaque { 
+    font-size: 2em; /* Tamanho da fonte maior */
+    /* color: #C92071; /* Cor do texto rosa */
+    /*background-color: #FFF; /* branca */
+   /* padding: 10px; /* Espaçamento interno */
+   /* border-radius: 8px; /* Bordas arredondadas */
+    /*text-align: center; /* Centralizar o texto */
+   /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra ao redor */
+   /*margin: 20px 0; /* Espaçamento externo */
+}
+
+   
