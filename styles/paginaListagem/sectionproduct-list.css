@@ -1,14 +1,23 @@
-.product-grid {
+.product-section {
+    margin-top: 15px;
+
+}
+
+.lista-produtos {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px; /* Espaçamento entre os cards */
+    margin-bottom: ;
+    
   }
   
   .product-card {
     background-color: #fff;
-    padding: 20px;
+    padding: 5px;
     border-radius: 8px;
     text-align: center;
+    margin-top: 15px;
+
   }
   
   .product-card img {
@@ -21,6 +30,7 @@
   .product-card h3 {
     font-size: 1.2rem;
     margin-bottom: 10px;
+    margin-top: 10px;
   }
   
   .product-card p {
@@ -52,16 +62,3 @@
     padding: 10px;
     font-style: bold;
   }
-
-  /* .destaque { 
-    font-size: 2em; /* Tamanho da fonte maior */
-    /* color: #C92071; /* Cor do texto rosa */
-    /*background-color: #FFF; /* branca */
-   /* padding: 10px; /* Espaçamento interno */
-   /* border-radius: 8px; /* Bordas arredondadas */
-    /*text-align: center; /* Centralizar o texto */
-   /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra ao redor */
-   /*margin: 20px 0; /* Espaçamento externo */
-
-
-   
