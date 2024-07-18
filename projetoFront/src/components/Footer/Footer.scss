@@ -1,0 +1,50 @@
+.body{
+    margin: 0;
+    display: flex;
+    min-width: 320px;
+    min-height: 100vh;
+    align-items: flex-end;
+    justify-content: end;
+}
+
+
+.footer-site{
+    background-color: #1f1f1f;
+    color: white;
+    width: 100vw;
+
+}
+
+.footer-site{
+    background-color: #1f1f1f;
+    color: white;
+
+}
+
+.coluna{
+    margin-right: 200px;
+}
+
+.col{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 0;
+}
+
+
+.titulo-footer{
+    font-size: 18px;
+}
+.icones-footer{
+    display: flex;
+    gap: 20px;
+    font-size: 25px;
+}
+hr{
+    margin: 0 80px;
+}
+.copy-footer{
+    text-align: center;
+    padding: 20px;
+
+}
