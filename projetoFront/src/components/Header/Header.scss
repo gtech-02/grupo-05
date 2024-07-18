@@ -1,0 +1,81 @@
+.nav-header{
+    padding: 15px;
+}
+
+.container-fluid a:hover{
+    text-decoration: underline 2px #C92071;
+    color: #C92071;
+  }
+
+  .logo-header {
+    margin-left: 20px
+  }
+
+  #busca {
+    width: 700px;
+  }
+  #busca:hover{
+    box-shadow: 5px 5px  #C92071;
+    border-color: #C92071;
+  }
+  #busca:focus{
+    box-shadow: 5px 5px  #C92071;
+    border-color: #C92071;
+  }
+
+
+  .button-nav{
+    border: none;
+    background: none;
+  }
+
+  .button-nav img{
+    width: 20px;
+    height: 20px;
+  }
+
+  .botoes-header button {
+    border:none;
+    background-color:#C92071;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    width: 114px;
+    height: 40px;
+
+}
+
+  #cad {
+    margin-right: 15px;
+    margin-top: 7px;
+    color:#474747 
+  }
+
+  #mini-cart{
+    margin-right: 35px
+  }
+
+  .menu {
+    margin-left: 45px
+  }
+
+  @media (max-width: 770px) {
+    #busca {
+       width: 20%;
+    }
+
+    .logo-header {
+        width: 15%;
+    }
+
+    .campo-busca{
+        width: 20%;
+    }
+
+    .botoes-header{
+        width: 5%;
+    }
+
+    
+
+}
