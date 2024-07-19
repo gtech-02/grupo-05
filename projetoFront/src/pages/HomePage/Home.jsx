@@ -13,7 +13,7 @@ const Home = () => {
         <div className="cards">
         <Gallery/>
         <Collection/>
-        <ProductListing/>
+        <ProductListing limit={8}/>
         </div>
         </Layout>
         </>

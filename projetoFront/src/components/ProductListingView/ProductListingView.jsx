@@ -1,40 +1,40 @@
-import ProductCard from "../ProductCard/ProductCard"
-import './ProductListing.scss'
-export default function ProductListing({ limit }){
-   let produtos =  [
+import ProductCard from "../ProductCard/ProductCard";
+
+export default function ProductListingView({limit}){
+    let produtos =  [
         {
             name: "K-Swiss V8 - Masculino",
-            image: "https://github.com/digitalcollegebr/projeto-digital-store/blob/main/public/produc-image-1.jpeg?raw=true",
+            image: "https://github.com/digitalcollegebr/projeto-digital-store/blob/main/public/produc-image-5.jpeg?raw=true",
             price: 200,
             priceDiscount: 0
         },
         {
             name: "K-Swiss V8 - Masculino",
-            image: "https://github.com/digitalcollegebr/projeto-digital-store/blob/main/public/produc-image-1.jpeg?raw=true",
+            image: "https://github.com/digitalcollegebr/projeto-digital-store/blob/main/public/produc-image-5.jpeg?raw=true",
             price: 49.9,
             priceDiscount: 0
         },
         {
             name: "K-Swiss V8 - Masculino",
-            image: "https://github.com/digitalcollegebr/projeto-digital-store/blob/main/public/produc-image-1.jpeg?raw=true",
+            image: "https://github.com/digitalcollegebr/projeto-digital-store/blob/main/public/produc-image-5.jpeg?raw=true",
             price: 49.9,
             priceDiscount: 0
         },
         {
             name: "K-Swiss V8 - Masculino",
-            image: "https://github.com/digitalcollegebr/projeto-digital-store/blob/main/public/produc-image-1.jpeg?raw=true",
+            image: "https://github.com/digitalcollegebr/projeto-digital-store/blob/main/public/produc-image-5.jpeg?raw=true",
             price: 49.9,
             priceDiscount: 0
         },
         {
             name: "K-Swiss V8 - Masculino",
-            image: "https://github.com/digitalcollegebr/projeto-digital-store/blob/main/public/produc-image-1.jpeg?raw=true",
+            image: "https://github.com/digitalcollegebr/projeto-digital-store/blob/main/public/produc-image-5.jpeg?raw=true",
             price: 49.9,
             priceDiscount: 0
         },
         {
             name: "K-Swiss V8 - Masculino",
-            image: "https://github.com/digitalcollegebr/projeto-digital-store/blob/main/public/produc-image-1.jpeg?raw=true",
+            image: "https://github.com/digitalcollegebr/projeto-digital-store/blob/main/public/produc-image-5.jpeg?raw=true",
             price: 49.9,
             priceDiscount: 0
         },
@@ -82,7 +82,7 @@ export default function ProductListing({ limit }){
         <div className="content">
         
 
-        <h2 className="titleCards">Produtos em Alta</h2>
+        <h2 className="titleCards">Produtos Relacionados</h2>
         </div>  
         <div className="cards">
             
