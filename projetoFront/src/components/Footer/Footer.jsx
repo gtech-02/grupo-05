@@ -4,7 +4,6 @@ import './Footer.scss'
 const Footer = () => {
     return (
         <>
-        <div className='body'>
     <footer className="footer-site">
       <div className="container">
         <div className="row">
@@ -60,7 +59,6 @@ const Footer = () => {
       <hr />
       <p className="copy-footer">&copy; 2024 Digital College</p>
     </footer>
-    </div>
         </>
     )
 }

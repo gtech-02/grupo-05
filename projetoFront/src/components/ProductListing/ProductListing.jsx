@@ -76,8 +76,17 @@ export default function ProductListing(){
 
     return (
         <>
+        <div className="flex">
+        <div className="content">
+        
+
+        <h2 className="titleCards">Produtos em Alta</h2>
+        </div>  
         <div className="cards">
+            
+
                     {produtos1}
+        </div>
         </div>
         </>
     )
