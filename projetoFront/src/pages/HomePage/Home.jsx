@@ -1,4 +1,5 @@
 import Gallery from "../../components/Gallery/gallery-slide";
+import Collection from "../../components/Collection/Collection";
 import Layout from "../Layout";
 
 const Home = () => {
@@ -6,6 +7,7 @@ const Home = () => {
         <>
         <Layout>
             <Gallery/>
+            <Collection/>
 
         </Layout>
         </>
