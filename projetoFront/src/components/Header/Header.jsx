@@ -21,7 +21,7 @@ export default function Header() {
             aria-label="Pesquisar"
           />
           <button className="button-nav" type="submit" >
-            <img src="https://github.com/gtech-02/grupo-05/blob/main/images/icon-lupa.png?raw=true" />
+            <img src="images/icon-lupa.png" />
           </button>
         </form>
 
