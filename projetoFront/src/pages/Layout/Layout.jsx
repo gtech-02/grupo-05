@@ -1,11 +1,11 @@
-import Header from '../components/Header/Header'
-import Footer from '../components/Footer/Footer'
-import '/home/luan/Documentos/curso-GeraçãoTech/projetos/grupo-05/projetoFront/src/pages/Layout.scss'
+import Header from '../../components/Header/Header'
+import Footer from '../../components/Footer/Footer'
+
 
 // Definindo o componente de layout
 const Layout = ({ children }) => {
   return (
-    <div>
+    <div className='teste'>
 
       <header>
       <Header />
