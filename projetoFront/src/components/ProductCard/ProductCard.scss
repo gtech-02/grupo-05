@@ -1,0 +1,66 @@
+.product-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+  }
+
+  .price{
+    color: darkgray;
+    font-size: 24px;
+    text-align: start;
+    margin: 0;
+  }
+
+  .tipo{
+    text-align: start;
+    margin: 0;
+    color: rgb(146, 140, 140);;
+  }
+  
+  .nomeProduto{
+    color: rgb(146, 140, 140);
+    font-size: 24px;
+    text-align: start;
+    margin: 0;
+  }
+ 
+ 
+  
+  
+
+  .img{
+    width: 292px;
+    height: 321px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+
+
+}
+
+
+// .card{
+//     display: inline-block;
+//     margin-left: 40px;
+// }
+
+// .price{
+//     color: darkgrey;
+//     font-size: 24px;
+// }
+
+// .priceNone{
+//     color: lightgrey;
+//     text-decoration: line-through;
+// }
+
+// .priceDiscount{
+//     color: darkgray;
+//     font-size: 24px;
+// }
+
+// .precos{
+//     display: flex;
+//     gap: 40px;
+//     // justify-content: end;
+// }
