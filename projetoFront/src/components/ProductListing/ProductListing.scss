@@ -1,4 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+.titleCards{
+  font-family: Oswald;
+    color: #474747;
+    margin-left: 80px;
+}
+
 .cards{
     display: flex;
     flex-wrap: wrap;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
 }
