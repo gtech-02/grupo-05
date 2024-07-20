@@ -1,5 +1,5 @@
 import './ProductCard.scss'
-export default function ProductCard(props){
+export default function ProductCard({product}){
 
 
     
@@ -8,10 +8,10 @@ export default function ProductCard(props){
 
       <div>
       <div className="product-card">
-        <img className='img' src={props.image} alt="Produto 1"/>
+        <img className='img' src={product.image} alt="Produto 1"/>
         <p className='tipo'>Tênis</p>
-        <h3 className='nomeProduto'>{props.name}</h3>
-        <p className='price'>R$ {props.price}</p>
+        <h3 className='nomeProduto'>{product.name}</h3>
+        <p className='price'>R$ {product.price}</p>
         
       </div>
     

@@ -1,11 +1,13 @@
-import ProductListingView from "../../components/ProductListingView/ProductListingView";
+
+import ProductListing from "../../components/ProductListing/ProductListing";
 import Layout from "../Layout/Layout";
+import produtosHome from '../../json/produtosHome.json'
 
 const ProductView = () => {
     return (
         <>
         <Layout>
-        <ProductListingView limit={4}/>
+            <ProductListing legenda={"Produtos Relacionados"} produtos={produtosHome} limit={4}/>
         </Layout>
         </>
     )
