@@ -1,0 +1,33 @@
+.form-ordenar{
+    margin-left: 40px;
+    margin-top: 30px;
+  
+}
+
+.form-ordenar label {
+    font-size: 16px;
+    color: #474747;
+
+}
+
+.form-select{
+    width: 17%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: #474747;
+    height: 60px;
+}
+
+.form-select option{
+    color: #474747;
+    
+}
+
+.form-select:hover{
+    box-shadow: 6px 6px #C92071 ;
+}
+
+.form-select:focus{
+    box-shadow: 3px 3px #C92071 ;
+    border-color: #C92071;
+}
