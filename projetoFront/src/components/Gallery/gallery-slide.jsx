@@ -12,16 +12,16 @@ const Gallery = () => {
       <img src="images/home-slide-6.jpeg" className="d-block w-100" alt="..."/>
     </div>
     <div className="carousel-item">
-      <img src="images/home-slide-7.jpeg" className="d-block w-100" alt="..."/>
+      <img src="images/home-slide-2.jpeg" className="d-block w-100" alt="..."/>
     </div>
     <div className="carousel-item">
-      <img src="images/home-slide-1.jpeg" className="d-block w-100" alt="..."/>
+      <img src="images/home-slide-3.jpeg" className="d-block w-100" alt="..."/>
     </div>
     <div className="carousel-item">
-      <img src="images/home-slide-9.jpg" className="d-block w-100" alt="..."/>
+      <img src="images/home-slide-4.jpeg" className="d-block w-100" alt="..."/>
     </div>
     <div className="carousel-item">
-      <img src="images/home-slide-10.jpg" className="d-block w-100" alt="..."/>
+      <img src="images/home-slide-5.jpeg" className="d-block w-100" alt="..."/>
     </div>
   </div>
   <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
