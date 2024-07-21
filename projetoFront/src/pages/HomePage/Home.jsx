@@ -14,7 +14,7 @@ const Home = () => {
         <div className="cards">
         <Gallery/>
         <Collection/>
-        <ProductListing legenda={"Produtos em Alta"} produtos={produtosHome}limit={8}/>
+        <ProductListing legenda={"Produtos em Alta"} produtos={produtosHome} limit={8}/>
         </div>
         </Layout>
         </>
