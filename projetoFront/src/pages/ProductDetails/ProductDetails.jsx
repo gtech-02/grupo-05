@@ -5,7 +5,6 @@ import produtos from '../../json/produtosView.json';
 import Layout from '../Layout/Layout';
 import CarouselDetails from '../../components/CarouselDetails/CarouselDetails';
 
-
 export default function ProductDetails() {
     let { id } = useParams();
     let produto = produtos.find(p => p.id.toString() === id);
