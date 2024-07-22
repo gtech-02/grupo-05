@@ -1,132 +1,60 @@
-[
+
+ 
+ [
     {
         "id": 1,
-        "name": "Tênis Nike Air Force 1",
-        "image": [
-            "/images/details/lado.png",
-            "/images/details/ladoDireito.png",
-            "/images/details/lateral.png",
-            "/images/details/sola.png",
-            "/images/details/costas.png"
-        ],
+        "name": "Tênis Nike Air Force 2",
+        "image": "/images/details/lateral.png",
         "price": 200,
         "priceDiscount": 0
     },
     {
         "id": 2,
         "name": "K-Swiss V8 - Masculino",
-                "image": [
-            "/images/details/lado.png",
-            "/images/details/ladoDireito.png",
-            "/images/details/lateral.png",
-            "/images/details/sola.png",
-            "/images/details/costas.png"
-        ],
+        "image": "/images/produc-image-5.jpeg",
         "price": 49.9,
         "priceDiscount": 0
     },
     {
         "id": 3,
         "name": "K-Swiss V8 - Masculino",
-                "image": [
-            "/images/details/lado.png",
-            "/images/details/ladoDireito.png",
-            "/images/details/lateral.png",
-            "/images/details/sola.png",
-            "/images/details/costas.png"
-        ],
+        "image": "/images/produc-image-5.jpeg",
         "price": 49.9,
         "priceDiscount": 0
     },
     {
         "id": 4,
         "name": "K-Swiss V8 - Masculino",
-                "image": [
-            "/images/details/lado.png",
-            "/images/details/ladoDireito.png",
-            "/images/details/lateral.png",
-            "/images/details/sola.png",
-            "/images/details/costas.png"
-        ],
+        "image": "/images/produc-image-5.jpeg",
         "price": 49.9,
         "priceDiscount": 0
     },
     {
-        "id": 5,
+        "id": 1,
+        "name": "Tênis Nike Air Force 2",
+        "image": "/images/details/lateral.png",
+        "price": 200,
+        "priceDiscount": 0
+    },
+    {
+        "id": 2,
         "name": "K-Swiss V8 - Masculino",
-                "image": [
-            "/images/details/lado.png",
-            "/images/details/ladoDireito.png",
-            "/images/details/lateral.png",
-            "/images/details/sola.png",
-            "/images/details/costas.png"
-        ],
+        "image": "/images/produc-image-5.jpeg",
         "price": 49.9,
         "priceDiscount": 0
     },
     {
-        "id": 6,
+        "id": 3,
         "name": "K-Swiss V8 - Masculino",
-                "image": [
-            "/images/details/lado.png",
-            "/images/details/ladoDireito.png",
-            "/images/details/lateral.png",
-            "/images/details/sola.png",
-            "/images/details/costas.png"
-        ],
+        "image": "/images/produc-image-5.jpeg",
         "price": 49.9,
         "priceDiscount": 0
     },
     {
-        "id": 7,
+        "id": 3,
         "name": "K-Swiss V8 - Masculino",
-                "image": [
-            "/images/details/lado.png",
-            "/images/details/ladoDireito.png",
-            "/images/details/lateral.png",
-            "/images/details/sola.png",
-            "/images/details/costas.png"
-        ],
-        "price": 49.9,
-        "priceDiscount": 0
-    },
-    {
-        "id": 8,
-        "name": "K-Swiss V8 - Masculino",
-                "image": [
-            "/images/details/lado.png",
-            "/images/details/ladoDireito.png",
-            "/images/details/lateral.png",
-            "/images/details/sola.png",
-            "/images/details/costas.png"
-        ],
-        "price": 49.9,
-        "priceDiscount": 0
-    },
-    {
-        "id": 9,
-        "name": "K-Swiss V8 - Masculino",
-                "image": [
-            "/images/details/lado.png",
-            "/images/details/ladoDireito.png",
-            "/images/details/lateral.png",
-            "/images/details/sola.png",
-            "/images/details/costas.png"
-        ],
-        "price": 49.9,
-        "priceDiscount": 0
-    },
-    {
-        "id": 10,
-        "name": "K-Swiss V8 - Masculino",
-                "image": [
-            "/images/details/lado.png",
-            "/images/details/ladoDireito.png",
-            "/images/details/lateral.png",
-            "/images/details/sola.png",
-            "/images/details/costas.png"
-        ],
+        "image": "/images/produc-image-5.jpeg",
         "price": 49.9,
         "priceDiscount": 0
     }
-]
+ ]

@@ -7,7 +7,7 @@ const ProductView = () => {
     return (
         <>
         <Layout>
-            <ProductListing legenda={"Produtos Relacionados"} produtos={produtosView} limit={4}/>
+            
         </Layout>
         </>
     )
