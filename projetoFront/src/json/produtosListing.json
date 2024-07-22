@@ -1,11 +1,13 @@
 [
-    {
+    {   
+        "id": 1,
         "name": "K-Swiss V5 - Masculino",
         "image": "/images/produc-image-1.jpeg",
         "price": 200,
         "priceDiscount": 0
     },
-    {
+    {   
+        "id": 2,
         "name": "K-Swiss V8 - Masculino",
         "image": "/images/produc-image-1.jpeg",
         "price": 49.9,
