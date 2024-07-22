@@ -1,17 +1,11 @@
-.body{
-    margin: 0;
-    display: flex;
-    min-width: 320px;
-    min-height: 100vh;
-    align-items: flex-end;
-    justify-content: end;
-}
+
 
 
 .footer-site{
     background-color: #1f1f1f;
     color: white;
     width: 100vw;
+    
 
 }
 
@@ -22,7 +16,7 @@
 }
 
 .coluna{
-    margin-right: 200px;
+    margin-right: 0;
 }
 
 .col{
@@ -46,5 +40,10 @@ hr{
 .copy-footer{
     text-align: center;
     padding: 20px;
+    margin: 0;
 
+}
+
+.mapa{
+    border-radius: 8px;
 }

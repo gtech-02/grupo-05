@@ -1,10 +1,7 @@
-// import Icon from "awesome-react-icons/lib/cjs/Icon";
-// import { Menubar } from "primereact/menubar";
-// import { InputText } from "primereact/inputtext";
+import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./Header.scss";
-// import { Button } from "primereact/button";
-// import './Botao.scss'
+
 
 export default function Header() {
     return (
@@ -21,12 +18,12 @@ export default function Header() {
             aria-label="Pesquisar"
           />
           <button className="button-nav" type="submit" >
-            <img src="https://github.com/gtech-02/grupo-05/blob/main/images/icon-lupa.png?raw=true" />
+            <img src="images/icon-lupa.png" />
           </button>
         </form>
 
         <div className="d-flex botoes-header" role="search">
-          <a href="#" id="cad">Cadastre-se</a>
+          <Link to="/" id="cad">Cadastre-se</Link>
           <button className="btn btn-outline-success" type="submit">
             Entrar
           </button>
@@ -38,7 +35,7 @@ export default function Header() {
 
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
       <div className="container-fluid menu">
-        <a className="navbar-brand" href="#">Home</a>
+        <Link className="navbar-brand" to="/home">Home</Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -52,9 +49,9 @@ export default function Header() {
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav">
-            <a className="nav-link" aria-current="page" href="#">Produtos</a>
-            <a className="nav-link" href="#">Categoria</a>
-            <a className="nav-link" href="#">Meus Pedidos</a>
+            <Link className="nav-link" aria-current="page" to="/produtos">Produtos</Link>
+            <Link className="nav-link" to="/categorias">Categoria</Link>
+            <Link className="nav-link" to="/home">Meus Pedidos</Link>
           </div>
         </div>
       </div>

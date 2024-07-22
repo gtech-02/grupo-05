@@ -1,0 +1,26 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+
+#colecao {
+    margin-top: 40px;
+     
+}
+
+#colecao h2 {
+    font-family: Oswald;
+    color: #474747;
+}
+
+#colecao img {
+    border-radius: 10px;
+    box-shadow: 10px 10px #C92071;
+}
+
+#colecao img:hover {
+    border-radius: 10px;
+    box-shadow: 16px 16px #9d054e;
+    transform: translateY(-7px);
+
+}
+

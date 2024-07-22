@@ -44,6 +44,17 @@
     height: 40px;
 
 }
+  .botoes-header button:hover{
+    border:none;
+    background-color: rgb(153, 147, 147);
+    color: #C92071;
+    font-weight: bold;
+    border-radius: 4px;
+    width: 114px;
+    height: 40px;
+    transform: translateY(-3px);
+
+}
 
   #cad {
     margin-right: 15px;
@@ -54,6 +65,10 @@
   #mini-cart{
     margin-right: 35px
   }
+  #mini-cart:hover{
+    margin-right: 35px;
+    transform: translateY(-2px);
+  }
 
   .menu {
     margin-left: 45px
@@ -61,7 +76,7 @@
 
   @media (max-width: 770px) {
     #busca {
-       width: 20%;
+       width: 300px;
     }
 
     .logo-header {
