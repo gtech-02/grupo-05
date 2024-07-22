@@ -1,9 +1,11 @@
 import './ProductDetails.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useParams } from 'react-router-dom';
-import produtos from '../../json/produtosView.json';
+import produtos from '../../json/produtosDetails.json';
 import Layout from '../Layout/Layout';
 import CarouselDetails from '../../components/CarouselDetails/CarouselDetails';
+import ProductListing from "../../components/ProductListing/ProductListing";
+import produtosView from '../../json/produtosView.json'
 
 export default function ProductDetails() {
     let { id } = useParams();
@@ -26,6 +28,7 @@ export default function ProductDetails() {
                     <p>Produto não encontrado</p>
                 )}
             </section>
+            <ProductListing legenda={"Produtos Relacionados"} produtos={produtosView} limit={8}/>
         </Layout>
     );
 }
