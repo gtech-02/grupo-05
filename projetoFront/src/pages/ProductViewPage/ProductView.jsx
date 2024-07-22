@@ -6,8 +6,11 @@ const ProductView = () => {
     return (
         <>
         <Layout>
+
             <CarouselDetails/>
             <ProductListing legenda={"Produtos Relacionados"} produtos={produtosView} limit={4}/>
+
+            
         </Layout>
         </>
     )

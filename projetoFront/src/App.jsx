@@ -1,7 +1,6 @@
 import Home from './pages/HomePage/Home';
 import ProductDetails from './pages/ProductDetails/ProductDetails';
 import ProductListing from './pages/ProductListingPage/ProductListingPage'
-import ProductView from './pages/ProductViewPage/ProductView'
 import { BrowserRouter as Router, Route, Routes,  Navigate } from 'react-router-dom';
 
 
@@ -15,8 +14,8 @@ function App() {
         <Route exact path="/home" element={<Home/>} />
         <Route path="/produtos" element={<ProductListing/>} />
         <Route path="/produtos/:id" element={<ProductDetails />} />
-        <Route path="/categorias" element={<ProductView />} />
-        <Route path='*' element={<Navigate to='/home' />} />
+        <Route path="/categorias" element={<Home />} />
+        <Route path='*' element={<Home/>}></Route>
     </Routes>
 </Router>
   )

@@ -38,6 +38,8 @@ export default function CarouselDetails(props) {
             </div>
             <div className="imgOptions">
                 {produto.image.map((imgSrc, index) => (
+                    <>
+                    
                     <button 
                         data-bs-target="#carouselDetails" 
                         data-bs-slide-to={`${index}`}
@@ -49,6 +51,7 @@ export default function CarouselDetails(props) {
                             className="img-options"
                         />
                     </button>
+                    </>
                     
                 ))}
             </div>
