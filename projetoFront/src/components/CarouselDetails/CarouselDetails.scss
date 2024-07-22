@@ -1,0 +1,61 @@
+.detailsContainer {
+    width: 50rem;
+}
+
+#carouselDetails {
+    width: 100%;
+    height: 35.6rem;
+    border-radius: 4px;
+    margin-bottom: 2rem;
+    background-color: #e3e4ff;
+}
+
+#carouselDetails .carousel-inner {
+    width: 100%;
+    height: 100%;
+}
+
+
+#carouselDetails .carousel-inner .img-details {
+    margin-left: 8rem;
+    margin-bottom: 8rem;
+    width: 36rem;
+    height: auto;
+}
+
+#carouselDetails .carousel-control-prev-icon {
+    width: 40px;
+    height: 40px;
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='4 0 16 16' fill='%'><path d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/></svg>");
+  
+}
+  
+#carouselDetails .carousel-control-next-icon {
+    width: 40px;
+    height: 40px;
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%'><path d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/></svg>");
+}
+  
+.buttonCarousel {
+    border: none;
+    background: none;
+}
+
+.imgOptions {
+    margin-left: -0.5rem;
+    display: flex;
+    gap: 38.5px;
+}
+
+.img-options {
+    width: 7.5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #e3e4ff;
+    transition: 100ms;
+}
+
+.img-options:hover {
+    border: 3px solid #C92071;
+
+}
