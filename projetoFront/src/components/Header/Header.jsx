@@ -8,7 +8,9 @@ export default function Header() {
     <header>
     <nav className="navbar bg-body-tertiary nav-header">
       <div className="container-fluid">
+        <Link to="/home">
         <img className="logo-header" src="https://raw.githubusercontent.com/digitalcollegebr/projeto-digital-store/154c105f9b1a127fb30ca797a224a9a301439ed5/assets/logo-header.svg" />
+        </Link>
         <form className="d-flex campo-busca" role="search">
           <input
             id="busca"
@@ -23,10 +25,13 @@ export default function Header() {
         </form>
 
         <div className="d-flex botoes-header" role="search">
-          <Link to="/" id="cad">Cadastre-se</Link>
+          <Link to="/cadastro" id="cad">Cadastre-se</Link>
+          <Link to="/login">
           <button className="btn btn-outline-success" type="submit">
             Entrar
           </button>
+          </Link>
+          
         </div>
 
         <a href="#" id="mini-cart"><img src="https://raw.githubusercontent.com/gtech-02/grupo-05/23b9d6b09f82ee9cc8f0e4b69f67d873845d8cb3/images/mini-cart.svg" /></a>
