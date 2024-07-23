@@ -1,0 +1,107 @@
+[
+    {   
+        "id": 6,
+        "name": "K-Swiss V5 - Masculino",
+        "image": "/images/produc-image-1.png",
+        "price": 200,
+        "priceDiscount": 2
+    },
+    {   
+        "id": 2,
+        "name": "K-Swiss V8 - Masculino",
+        "image": "/images/produc-image-1.png",
+        "price": 49.9,
+        "priceDiscount": 0
+    },
+    {
+        "name": "K-Swiss V8 - Masculino",
+        "image": "/images/produc-image-1.png",
+        "price": 49.9,
+        "priceDiscount": 0
+    },
+    {
+        "name": "K-Swiss V8 - Masculino",
+        "image": "/images/produc-image-1.png",
+        "price": 49.9,
+        "priceDiscount": 0
+    },
+    {
+        "name": "K-Swiss V8 - Masculino",
+        "image": "/images/produc-image-1.png",
+        "price": 49.9,
+        "priceDiscount": 0
+    },
+    {
+        "name": "K-Swiss V8 - Masculino",
+        "image": "/images/produc-image-1.png",
+        "price": 49.9,
+        "priceDiscount": 0
+    },
+    {
+        "name": "K-Swiss V8 - Masculino",
+        "image": "/images/produc-image-1.png",
+        "price": 49.9,
+        "priceDiscount": 0
+    },
+    {
+        "name": "K-Swiss V8 - Masculino",
+        "image": "/images/produc-image-1.png",
+        "price": 49.9,
+        "priceDiscount": 0
+    },
+    {
+        "name": "K-Swiss V8 - Masculino",
+        "image": "/images/produc-image-1.png",
+        "price": 49.9,
+        "priceDiscount": 0
+    },
+    {
+        "name": "K-Swiss V8 - Masculino",
+        "image": "/images/produc-image-1.png",
+        "price": 49.9,
+        "priceDiscount": 0
+    },
+    {
+        "name": "K-Swiss V8 - Masculino",
+        "image": "/images/produc-image-1.png",
+        "price": 49.9,
+        "priceDiscount": 0
+    },
+    {
+        "name": "K-Swiss V8 - Masculino",
+        "image": "/images/produc-image-1.png",
+        "price": 49.9,
+        "priceDiscount": 0
+    },
+    {
+        "name": "K-Swiss V8 - Masculino",
+        "image": "/images/produc-image-1.png",
+        "price": 49.9,
+        "priceDiscount": 0
+    },
+    {
+        "name": "K-Swiss V8 - Masculino",
+        "image": "/images/produc-image-1.png",
+        "price": 49.9,
+        "priceDiscount": 0
+    },
+    {
+        "name": "K-Swiss V8 - Masculino",
+        "image": "/images/produc-image-1.png",
+        "price": 49.9,
+        "priceDiscount": 0
+    },
+    {
+        "name": "K-Swiss V8 - Masculino",
+        "image": "/images/produc-image-1.png",
+        "price": 49.9,
+        "priceDiscount": 0
+    },
+    {
+        "name": "K-Swiss V8 - Masculino",
+        "image": "/images/produc-image-1.png",
+        "price": 49.9,
+        "priceDiscount": 0
+    }
+  
+    ]
