@@ -5,7 +5,7 @@ import produtos from '../../json/produtosDetails.json';
 import Layout from '../Layout/Layout';
 import CarouselDetails from '../../components/CarouselDetails/CarouselDetails';
 import ProductListing from "../../components/ProductListing/ProductListing";
-import produtosView from '../../json/produtosView.json'
+import BuyBox from '../../components/BuyBox/BuxBox';
 
 export default function ProductDetails() {
     let { id } = useParams();
@@ -17,18 +17,14 @@ export default function ProductDetails() {
                 {produto ? (
                     <>
                         <CarouselDetails produto={produto} />
-                        <div>
-                            <h1 className="productName">{produto.name} <span>Wild Masculino</span></h1>
-                            <p>Casual | Nike | REF:38416711</p>
-                            <p>Preço: R$ {produto.price}</p>
-                        </div>
+                        <BuyBox produto={produto} />
 
                     </>
                 ) : (
                     <p>Produto não encontrado</p>
                 )}
             </section>
-            <ProductListing legenda={"Produtos Relacionados"} produtos={produtosView} limit={8}/>
+            <ProductListing legenda={"Produtos Relacionados"} produtos={produtos} limit={4}/>
         </Layout>
     );
 }
