@@ -11,8 +11,21 @@
   .price{
     color: darkgray;
     font-size: 24px;
+    font-weight: 700;
     text-align: start;
     margin: 0;
+  }
+
+  .priceAntigo{
+    color: red;
+    text-decoration: line-through;
+    margin: 0;
+    color: lightgray;
+  }
+
+  .precos{
+    display: flex;
+    gap: 8px;
   }
 
   .tipo{
