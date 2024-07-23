@@ -27,7 +27,7 @@ export default function Login() {
             />
             <div className="btnForm">
               <button onClick={alerta} className="botao" type="submit">
-                Cadastrar
+                Entrar
               </button>
             </div>
           </form>

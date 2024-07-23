@@ -15,7 +15,7 @@ export default function FilterGroup(){
             <Options categoria={"Categoria"} items={categoria}/>
             <Options categoria={"Gênero"} items={genero}/>
             <Options categoria={"Estado"} items={estado}/>
-
+            
             </div>
 
 
