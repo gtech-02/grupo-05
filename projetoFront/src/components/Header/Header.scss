@@ -4,6 +4,7 @@
 
 .container-fluid a:hover{
     text-decoration: underline 2px #C92071;
+    text-underline-offset: 0.6em;
     color: #C92071;
   }
 
@@ -59,7 +60,19 @@
   #cad {
     margin-right: 15px;
     margin-top: 7px;
-    color:#474747 
+    color:#474747; 
+    text-decoration: none;
+  }
+
+  #cad:hover {
+    margin-right: 15px;
+    margin-top: 7px;
+    color:#474747;
+    text-decoration: underline 2px #C92071;
+    text-underline-offset: 0.6em;
+    color: #C92071;
+    
+     
   }
 
   #mini-cart{
