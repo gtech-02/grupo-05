@@ -3,130 +3,190 @@
         "id": 1,
         "name": "Tênis Nike Air Force 1",
         "image": [
-            "/images/details/lado.png",
-            "/images/details/ladoDireito.png",
-            "/images/details/lateral.png",
-            "/images/details/sola.png",
-            "/images/details/costas.png"
+            "/images/details/tenis1/lado.png",
+            "/images/details/tenis1/ladoDireito.png",
+            "/images/details/tenis1/lateral.png",
+            "/images/details/tenis1/costas.png",
+            "/images/details/tenis1/sola.png"
         ],
         "price": 200,
-        "priceDiscount": 0
+        "priceDiscount": "400,00",
+        "ref": "Casual | Nike | REF:38416711",
+        "rating": 4.5,
+        "reviews": "(90 avaliações )",
+        "description": "O Tênis Nike Air Force 1 '07 Masculino é uma lenda do basquete que ganhou destaque no mundo inteiro, com um visual inspirado no calçado original de 1982. Ele possui um amortecimento macio e responsivo e uma entressola extremamente durável. O cabedal em couro e tecido é fácil de limpar e mantém o visual sempre novo.",
+        "sizeOptions": [39, 40, 41, 42, 43],
+        "colorOptions": ["#6FEEFF", "#C92071", "#5E5E5E", "#6D70B7"]
     },
     {
         "id": 2,
-        "name": "K-Swiss V8 - Masculino",
-                "image": [
-            "/images/produc-image-5.jpeg",
-            "/images/produc-image-5.jpeg",
-            "/images/produc-image-5.jpeg",
-            "/images/produc-image-5.jpeg",
-            "/images/produc-image-5.jpeg"
+        "name": "Lebron XXI",
+        "image": [
+            "/images/details/tenis2/lado.png",
+            "/images/details/tenis2/ladoDireito.png",
+            "/images/details/tenis2/lateral.png",
+            "/images/details/tenis2/costas.png",
+            "/images/details/tenis2/sola.png"
         ],
-        "price": 49.9,
-        "priceDiscount": 0
+        "price": 300,
+        "priceDiscount": 600,
+        "ref": "Casual | Nike | REF:38416711",
+        "rating": 4.5,
+        "reviews": "(90 avaliações)",
+        "description": "O Tênis Nike Air Force 1 '07 Masculino é uma lenda do basquete que ganhou destaque no mundo inteiro, com um visual inspirado no calçado original de 1982. Ele possui um amortecimento macio e responsivo e uma entressola extremamente durável. O cabedal em couro e tecido é fácil de limpar e mantém o visual sempre novo.",
+        "sizeOptions": [39, 40, 41, 42, 43],
+        "colorOptions": ["#6FEEFF", "#C92071", "#5E5E5E", "#6D70B7"]
     },
     {
         "id": 3,
-        "name": "K-Swiss V8 - Masculino",
-                "image": [
-            "/images/details/lado.png",
-            "/images/details/ladoDireito.png",
-            "/images/details/lateral.png",
-            "/images/details/sola.png",
-            "/images/details/costas.png"
+        "name": "Air Jordan",
+        "image": [
+            "/images/details/tenis3/lado.png",
+            "/images/details/tenis3/ladoDireito.png",
+            "/images/details/tenis3/lateral.png",
+            "/images/details/tenis3/costas.png",
+            "/images/details/tenis3/sola.png"
         ],
-        "price": 49.9,
-        "priceDiscount": 0
+        "price": 400,
+        "priceDiscount": 500    ,
+        "ref": "Casual | Nike | REF:38416711",
+        "rating": 4.5,
+        "reviews": "(90 avaliações)",
+        "description": "O Tênis Nike Air Force 1 '07 Masculino é uma lenda do basquete que ganhou destaque no mundo inteiro, com um visual inspirado no calçado original de 1982. Ele possui um amortecimento macio e responsivo e uma entressola extremamente durável. O cabedal em couro e tecido é fácil de limpar e mantém o visual sempre novo.",
+        "sizeOptions": [39, 40, 41, 42, 43],
+        "colorOptions": ["#6FEEFF", "#C92071", "#5E5E5E", "#6D70B7"]
     },
     {
         "id": 4,
-        "name": "K-Swiss V8 - Masculino",
-                "image": [
-            "/images/details/lado.png",
-            "/images/details/ladoDireito.png",
-            "/images/details/lateral.png",
-            "/images/details/sola.png",
-            "/images/details/costas.png"
+        "name": "Air Jordan 37 Low",
+        "image": [
+            "/images/details/tenis4/lado.png",
+            "/images/details/tenis4/ladoDireito.png",
+            "/images/details/tenis4/lateral.png",
+            "/images/details/tenis4/costas.png",
+            "/images/details/tenis4/sola.png"
         ],
         "price": 49.9,
-        "priceDiscount": 0
+        "priceDiscount": 0,
+        "ref": "Casual | Nike | REF:38416711",
+        "rating": 4.5,
+        "reviews": "(90 avaliações)",
+        "description": "O Tênis Nike Air Force 1 '07 Masculino é uma lenda do basquete que ganhou destaque no mundo inteiro, com um visual inspirado no calçado original de 1982. Ele possui um amortecimento macio e responsivo e uma entressola extremamente durável. O cabedal em couro e tecido é fácil de limpar e mantém o visual sempre novo.",
+        "sizeOptions": [39, 40, 41, 42, 43],
+        "colorOptions": ["#6FEEFF", "#C92071", "#5E5E5E", "#6D70B7"]
     },
     {
         "id": 5,
         "name": "K-Swiss V8 - Masculino",
-                "image": [
-            "/images/details/lado.png",
-            "/images/details/ladoDireito.png",
-            "/images/details/lateral.png",
-            "/images/details/sola.png",
-            "/images/details/costas.png"
+        "image": [
+            "/images/details/tenis1/lado.png",
+            "/images/details/tenis1/ladoDireito.png",
+            "/images/details/tenis1/lateral.png",
+            "/images/details/tenis1/costas.png",
+            "/images/details/tenis1/sola.png"
         ],
         "price": 49.9,
-        "priceDiscount": 0
+        "priceDiscount": 0,
+        "ref": "Casual | Nike | REF:38416711",
+        "rating": 4.5,
+        "reviews": "(90 avaliações)",
+        "description": "O Tênis Nike Air Force 1 '07 Masculino é uma lenda do basquete que ganhou destaque no mundo inteiro, com um visual inspirado no calçado original de 1982. Ele possui um amortecimento macio e responsivo e uma entressola extremamente durável. O cabedal em couro e tecido é fácil de limpar e mantém o visual sempre novo.",
+        "sizeOptions": [39, 40, 41, 42, 43],
+        "colorOptions": ["#000", "#f00", "#0f0", "#00f"]
     },
     {
         "id": 6,
         "name": "K-Swiss V8 - Masculino",
-                "image": [
-            "/images/details/lado.png",
-            "/images/details/ladoDireito.png",
-            "/images/details/lateral.png",
-            "/images/details/sola.png",
-            "/images/details/costas.png"
+        "image": [
+            "/images/details/tenis1/lado.png",
+            "/images/details/tenis1/ladoDireito.png",
+            "/images/details/tenis1/lateral.png",
+            "/images/details/tenis1/costas.png",
+            "/images/details/tenis1/sola.png"
         ],
         "price": 49.9,
-        "priceDiscount": 0
+        "priceDiscount": 0,
+        "ref": "Casual | Nike | REF:38416711",
+        "rating": 4.5,
+        "reviews": "(90 avaliações)",
+        "description": "O Tênis Nike Air Force 1 '07 Masculino é uma lenda do basquete que ganhou destaque no mundo inteiro, com um visual inspirado no calçado original de 1982. Ele possui um amortecimento macio e responsivo e uma entressola extremamente durável. O cabedal em couro e tecido é fácil de limpar e mantém o visual sempre novo.",
+        "sizeOptions": [39, 40, 41, 42, 43],
+        "colorOptions": ["#000", "#f00", "#0f0", "#00f"]
     },
     {
         "id": 7,
         "name": "K-Swiss V8 - Masculino",
-                "image": [
-            "/images/details/lado.png",
-            "/images/details/ladoDireito.png",
-            "/images/details/lateral.png",
-            "/images/details/sola.png",
-            "/images/details/costas.png"
+        "image": [
+            "/images/details/tenis1/lado.png",
+            "/images/details/tenis1/ladoDireito.png",
+            "/images/details/tenis1/lateral.png",
+            "/images/details/tenis1/costas.png",
+            "/images/details/tenis1/sola.png"
         ],
         "price": 49.9,
-        "priceDiscount": 0
+        "priceDiscount": 0,
+        "ref": "Casual | Nike | REF:38416711",
+        "rating": 4.5,
+        "reviews": "(90 avaliações)",
+        "description": "O Tênis Nike Air Force 1 '07 Masculino é uma lenda do basquete que ganhou destaque no mundo inteiro, com um visual inspirado no calçado original de 1982. Ele possui um amortecimento macio e responsivo e uma entressola extremamente durável. O cabedal em couro e tecido é fácil de limpar e mantém o visual sempre novo.",
+        "sizeOptions": [39, 40, 41, 42, 43],
+        "colorOptions": ["#000", "#f00", "#0f0", "#00f"]
     },
     {
         "id": 8,
         "name": "K-Swiss V8 - Masculino",
-                "image": [
-            "/images/details/lado.png",
-            "/images/details/ladoDireito.png",
-            "/images/details/lateral.png",
-            "/images/details/sola.png",
-            "/images/details/costas.png"
+        "image": [
+            "/images/details/tenis1/lado.png",
+            "/images/details/tenis1/ladoDireito.png",
+            "/images/details/tenis1/lateral.png",
+            "/images/details/tenis1/costas.png",
+            "/images/details/tenis1/sola.png"
         ],
         "price": 49.9,
-        "priceDiscount": 0
+        "priceDiscount": 0,
+        "ref": "Casual | Nike | REF:38416711",
+        "rating": 4.5,
+        "reviews": "(90 avaliações)",
+        "description": "O Tênis Nike Air Force 1 '07 Masculino é uma lenda do basquete que ganhou destaque no mundo inteiro, com um visual inspirado no calçado original de 1982. Ele possui um amortecimento macio e responsivo e uma entressola extremamente durável. O cabedal em couro e tecido é fácil de limpar e mantém o visual sempre novo.",
+        "sizeOptions": [39, 40, 41, 42, 43],
+        "colorOptions": ["#000", "#f00", "#0f0", "#00f"]
     },
     {
         "id": 9,
         "name": "K-Swiss V8 - Masculino",
-                "image": [
-            "/images/details/lado.png",
-            "/images/details/ladoDireito.png",
-            "/images/details/lateral.png",
-            "/images/details/sola.png",
-            "/images/details/costas.png"
+        "image": [
+            "/images/details/tenis1/lado.png",
+            "/images/details/tenis1/ladoDireito.png",
+            "/images/details/tenis1/lateral.png",
+            "/images/details/tenis1/costas.png",
+            "/images/details/tenis1/sola.png"
         ],
         "price": 49.9,
-        "priceDiscount": 0
+        "priceDiscount": 0,
+        "ref": "Casual | Nike | REF:38416711",
+        "rating": 4.5,
+        "reviews": "(90 avaliações)",
+        "description": "O Tênis Nike Air Force 1 '07 Masculino é uma lenda do basquete que ganhou destaque no mundo inteiro, com um visual inspirado no calçado original de 1982. Ele possui um amortecimento macio e responsivo e uma entressola extremamente durável. O cabedal em couro e tecido é fácil de limpar e mantém o visual sempre novo.",
+        "sizeOptions": [39, 40, 41, 42, 43],
+        "colorOptions": ["#000", "#f00", "#0f0", "#00f"]
     },
     {
         "id": 10,
         "name": "K-Swiss V8 - Masculino",
-                "image": [
-            "/images/details/lado.png",
-            "/images/details/ladoDireito.png",
-            "/images/details/lateral.png",
-            "/images/details/sola.png",
-            "/images/details/costas.png"
+        "image": [
+            "/images/details/tenis1/lado.png",
+            "/images/details/tenis1/ladoDireito.png",
+            "/images/details/tenis1/lateral.png",
+            "/images/details/tenis1/costas.png",
+            "/images/details/tenis1/sola.png"
         ],
         "price": 49.9,
-        "priceDiscount": 0
+        "priceDiscount": 0,
+        "ref": "Casual | Nike | REF:38416711",
+        "rating": 4.5,
+        "reviews": "(90 avaliações)",
+        "description": "O Tênis Nike Air Force 1 '07 Masculino é uma lenda do basquete que ganhou destaque no mundo inteiro, com um visual inspirado no calçado original de 1982. Ele possui um amortecimento macio e responsivo e uma entressola extremamente durável. O cabedal em couro e tecido é fácil de limpar e mantém o visual sempre novo.",
+        "sizeOptions": [39, 40, 41, 42, 43],
+        "colorOptions": ["#000", "#f00", "#0f0", "#00f"]
     }
 ]

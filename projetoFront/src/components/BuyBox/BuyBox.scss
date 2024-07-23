@@ -1,0 +1,145 @@
+.productName {
+    max-width: 25rem;
+    font-size: 32px;
+    word-wrap: break-word;
+    line-height: 36px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+}
+
+.productRef {
+    font-weight: 500;
+    size: 12px;
+    color: #666666;
+}
+
+.ProductReviews {
+    display: flex;
+    gap: 1rem;
+    
+}
+
+.ProductReviews img {
+    width: 92px;
+    height: 14px;
+    margin-top: .5rem;
+}
+
+.ProductReviews .productRating {
+    background-color: #F6AA1C;
+    width: 4.8rem;
+    height: 2rem;
+    border-radius: 4px;
+    padding: 4px 0;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.productRating p {
+    font-size: 17px;
+    font-weight: 900;
+    color: #fff;
+}
+
+.ProductReviews .pReview {
+    color: #8F8F8F;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.productPrice {
+    display: flex;
+    gap: 0.4rem;
+    align-items: center;
+}
+
+.productPrice .real {
+    color: #474747;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+}
+
+.pPrice {
+    font-size: 32px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    color: #474747;
+    margin-top: 3px;
+}
+
+.productPrice .priceDiscount {
+    color: #CCCCCC;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-left: 5px;
+    text-decoration: line-through;
+}
+
+.description h4, .size h4, .color h4 {
+    font-size: 14px;
+    font-weight: 700;
+    color: #8f8f8f;
+    font-family: "Inter", sans-serif;
+    margin-top: 0.5rem;
+}
+
+.description p {
+    max-width: 30rem;
+    word-wrap: break-word;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+}
+
+.size .sizeOptions {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.sizeOptions button {
+    background-color: #fff;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 4px;
+    border: 1px solid #CCCCCC;
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+.sizeOptions button:hover {
+    background-color: #C92071;
+    color: #fff;
+}
+
+.color .colorOptions {
+    display: flex;
+    gap: 1rem;
+}
+
+.colorOptions button {
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;
+    border: none;    
+}
+
+.colorOptions button {
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;
+    border: none;
+}
+
+.buy {
+    width: 13.75rem;
+    height: 3rem;
+    background-color: #FFB31F;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    margin-top: 1.5rem;
+}
