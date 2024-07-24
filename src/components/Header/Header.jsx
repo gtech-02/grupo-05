@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./Header.scss";
 
@@ -40,7 +41,7 @@ export default function Header() {
 
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
       <div className="container-fluid menu">
-        <Link className="navbar-brand" to="/home">Home</Link>
+        <NavLink className="navbar-brand navlink" activeClassName="active" to="/home">Home</NavLink>
         <button
           className="navbar-toggler"
           type="button"
@@ -54,9 +55,9 @@ export default function Header() {
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav">
-            <Link className="nav-link" aria-current="page" to="/produtos">Produtos</Link>
-            <Link className="nav-link" to="/categorias">Categoria</Link>
-            <Link className="nav-link" to="/home">Meus Pedidos</Link>
+            <NavLink className="nav-link navlink" activeClassName="active" aria-current="page" to="/produtos">Produtos</NavLink>
+            <NavLink className="nav-link navlink" activeClassName="active" to="/categorias">Categoria</NavLink>
+            <NavLink className="nav-link navlink" activeClassName="active" to="/pedidos">Meus Pedidos</NavLink>
           </div>
         </div>
       </div>

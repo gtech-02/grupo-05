@@ -1,6 +1,8 @@
 import Icon from "awesome-react-icons/lib/cjs/Icon";
+import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Footer.scss'
+import ScrollToTop from "../ScrollToTop";
 const Footer = () => {
     return (
         <>
@@ -8,7 +10,11 @@ const Footer = () => {
       <div className="container">
         <div className="row">
           <div className="col coluna">
+            <ScrollToTop>
+            <Link to="/home">
             <img src="https://raw.githubusercontent.com/gtech-02/grupo-05/23b9d6b09f82ee9cc8f0e4b69f67d873845d8cb3/images/logo-footer.svg" alt="" />
+            </Link>
+            </ScrollToTop>
           </div>
           <div className="col">
             <h2 className="titulo-footer">Informação</h2>
@@ -27,9 +33,15 @@ const Footer = () => {
               eiusmod tempor incididunt ut labore et dolore.
             </p>
             <div className="icones-footer">
-              <i className=""><Icon name="facebook"/></i>
-              <i className=""><Icon name="instagram"/></i>
-              <i className=""><Icon name="twitter"/></i>
+              <Link to="https://www.facebook.com/digitalcollegebr">
+              <i className="iconesRedes"><Icon name="facebook"/></i>
+              </Link>
+              <Link to="https://www.instagram.com/digitalcollegebr/">
+              <i className="iconesRedes"><Icon name="instagram"/></i>
+              </Link>
+              <Link to="https://x.com/eaicollegers">
+              <i className="iconesRedes"><Icon name="twitter"/></i>
+              </Link>
             </div>
           </div>
           <div className="col">

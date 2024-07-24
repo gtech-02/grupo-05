@@ -25,7 +25,7 @@
             "/images/details/tenis2/lado.png",
             "/images/details/tenis2/ladoDireito.png",
             "/images/details/tenis2/lateral.png",
-            "/images/details/tenis2/costas.png",
+            "/images/details/tenis2/lado.png",
             "/images/details/tenis2/sola.png"
         ],
         "price": 300,
@@ -109,7 +109,7 @@
         "ref": "Casual | Nike | REF:38416711",
         "rating": 4.9,
         "reviews": "(99 avaliações)",
-        "description": "O Nike LeBron XXI x The Shop é uma edição especial da linha de calçados de basquete do LeBron James, projetada em colaboração com 'The Shop', uma marca que conecta comunidades e série de conversas. Este modelo traz um novo olhar para a linha de sapatos assinados pelo Rei, oferecendo uma sensação fresca e acima do padrão após um corte limpo.",
+        "description": "O Air Naldo é uma edição especial da linha de calçados do Superstar Naldo Benny, projetada em colaboração com 'The Shop', uma marca que conecta comunidades. Este modelo traz um novo olhar para a linha de sapatos assinados pelo Rei, oferecendo uma sensação fresca e acima do padrão após um corte limpo.",
         "sizeOptions": [37,39, 41, 42],
         "colorOptions": ["#6FEEFF", "#C92071", "#5E5E5E", "#6D70B7"]
     },
