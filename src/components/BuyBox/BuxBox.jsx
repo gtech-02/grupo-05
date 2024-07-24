@@ -1,9 +1,10 @@
 import Stars from '../../../public/images/details/stars.png';
 import './BuyBox.scss';
+import React, { useState } from 'react';
 
 export default function BuyBox(props) {    
     const { produto } = props;
-    console.log(produto)
+    const [selectedColor, setSelectedColor] = useState(null);
 
     return (
         <div>

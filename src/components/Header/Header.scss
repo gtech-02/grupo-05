@@ -88,6 +88,13 @@
     margin-left: 45px
   }
 
+  .navlink.active{
+    color: #c4005b !important; 
+    text-decoration: underline 2px #C92071;
+    text-underline-offset: 0.6em;
+    margin-bottom: red;
+  }
+
   @media (max-width: 770px) {
     #busca {
        width: 300px;
