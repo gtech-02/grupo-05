@@ -7,7 +7,7 @@ Bem-vindo ao **Digital Store**, um projeto desenvolvido pelo **Grupo 5** como pa
 
 - [**Paulo Luan**](https://github.com/luannpl)
 - [**Samuel Silva**](https://github.com/SamuelP-Silva)
-- [**Miller**]( https://github.com/miller0803)
+- [**Luis Miller**]( https://github.com/miller0803)
 
 ## Tecnologias Utilizadas
 ![HTML](https://skillicons.dev/icons?i=html)
