@@ -1,24 +1,21 @@
 import "./Collection.scss"
+import imagens from "../../json/collection.json"
 
 const Collection = () => {
     return (
-
+      <>
+<h2 className="titulocollection"> Coleções em Destaque</h2>
         <div class="container text-center" id="colecao">
-            <h2> Coleções em Destaque</h2>
-  <div class="row">
+            
+            {imagens.map(item =>(
+  <div class="row colecoes">
     <div class="col">
-      <img src="images/collection-1.png"/>
+      <img src={item.image}/>
     </div>
-    <div class="col">
-      <img src="images/collection-2.png"/>
-    </div>
-    <div class="col">
-      <img src="images/collection-3.png"/>
-    </div>
-  </div>
+  </div>))}
 </div>
 
-
+</>
     )  
 }
 
