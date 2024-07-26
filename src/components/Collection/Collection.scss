@@ -4,7 +4,20 @@
 
 #colecao {
     margin-top: 40px;
-     
+    display: flex;
+    gap: 60px;
+      
+}
+
+.titulocollection {
+    font-family: Oswald;
+    color: #474747;
+    margin-top: 45px;;
+
+}
+
+.colecoes {
+    display: flex;
 }
 
 #colecao h2 {
