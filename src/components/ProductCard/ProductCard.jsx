@@ -7,7 +7,7 @@ export default function ProductCard({ product }) {
     <Link to={`/produtos/${product.id}`} style={{ textDecoration: "none" }}>
       <div className="product-card">
         <img className='img' src={productImage} alt={product.name}/>
-        <p className="tipo">Tênis</p>
+        <p className="tipo">{product.type}</p>
         <h3 className="nomeProduto">{product.name}</h3>
         <div className="precos">
         {product.priceDiscount > 0 ? (

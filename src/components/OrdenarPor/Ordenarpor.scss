@@ -16,6 +16,7 @@
     margin-bottom: 15px;
     color: #474747;
     height: 60px;
+    cursor: pointer;
 }
 
 .form-select option{
@@ -30,4 +31,8 @@
 .form-select:focus{
     box-shadow: 3px 3px #C92071 ;
     border-color: #C92071;
+}
+
+.optionForm{
+    cursor: pointer;
 }

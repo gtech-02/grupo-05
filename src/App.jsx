@@ -3,7 +3,7 @@ import ProductDetails from './pages/ProductDetails/ProductDetails';
 import ProductListing from './pages/ProductListingPage/ProductListingPage'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import PageCadastro from './pages/PageCadastro/PageCadastro';
-import PageLogin from './pages/pageLogin/PageLogin';
+import PageLogin from './pages/PageLogin/PageLogin';
 
 
 

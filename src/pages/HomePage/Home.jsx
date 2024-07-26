@@ -4,7 +4,7 @@ import './Home.scss'
 import Gallery from "../../components/Gallery/gallery-slide";
 import Collection from "../../components/Collection/Collection";
 import Layout from "../Layout/Layout";
-import produtosHome from '../../json/produtosHome.json'
+import produtosHome from '../../json/produtosListing.json'
 
 const Home = () => {
     return (

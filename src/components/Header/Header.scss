@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+
 .nav-header{
     padding: 15px;
 }
@@ -40,7 +43,8 @@
     border:none;
     background-color:#C92071;
     color: white;
-    font-weight: bold;
+    font-family: 'Osvald';
+    font-weight: 900;
     border-radius: 4px;
     width: 114px;
     height: 40px;
@@ -87,12 +91,20 @@
   .menu {
     margin-left: 45px
   }
+  
+  .navlink{
+    font-family: 'Osvald';
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: #686666;
 
+  }
   .navlink.active{
     color: #c4005b !important; 
     text-decoration: underline 2px #C92071;
     text-underline-offset: 0.6em;
     margin-bottom: red;
+    font-weight: 800;
   }
 
   @media (max-width: 770px) {
