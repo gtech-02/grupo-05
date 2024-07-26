@@ -1,19 +1,14 @@
-
-
-
 .footer-site{
     background-color: #1f1f1f;
     color: white;
     width: 100vw;
+    padding-top: 20px;
+    margin-top: 80px;
     
 
 }
 
-.footer-site{
-    background-color: #1f1f1f;
-    color: white;
 
-}
 
 .coluna{
     margin-right: 0;
@@ -28,11 +23,20 @@
 
 .titulo-footer{
     font-size: 18px;
+    display: flex;
+    height: 100%;
+    align-items: center;
 }
 .icones-footer{
     display: flex;
     gap: 20px;
     font-size: 25px;
+}
+.pFooter{
+    cursor: pointer;
+}
+.pFooter:hover{
+    color: #a82c66;
 }
 hr{
     margin: 0 80px;

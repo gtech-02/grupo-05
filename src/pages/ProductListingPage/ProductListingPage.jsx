@@ -3,7 +3,7 @@ import ProductListing from "../../components/ProductListing/ProductListing";
 import produtosList from '../../json/produtosListing.json'
 import './ProductListingPage.scss'
 import FilterGroup from "../../components/FilterGroup/FilterGroup";
-import Ordenar from "../../components/OrdenarPor/ordenarpor";
+import Ordenar from "../../components/OrdenarPor/Ordenarpor";
 
 const ProductListingPage = () => {
     return (

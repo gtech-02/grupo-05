@@ -29,8 +29,7 @@ const Footer = () => {
         <div className="row">
           <div className="col coluna">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore.
+            A Digital Store redefine a experiência de compra de tênis esportivos na era digital, oferecendo uma seleção exclusiva de calçados.
             </p>
             <div className="icones-footer">
               <Link to="https://www.facebook.com/digitalcollegebr">
@@ -45,23 +44,23 @@ const Footer = () => {
             </div>
           </div>
           <div className="col">
-            <p>Sobre Drip Store</p>
-            <p>Segurança</p>
-            <p>Wishilist</p>
-            <p>Blog</p>
-            <p>Trabalhe conosco</p>
-            <p>Meus pedidos</p>
+            <p className="pFooter">Sobre Drip Store</p>
+            <p className="pFooter">Segurança</p>
+            <p className="pFooter">Wishilist</p>
+            <p className="pFooter">Blog</p>
+            <p className="pFooter">Trabalhe conosco</p>
+            <p className="pFooter">Meus pedidos</p>
           </div>
           <div className="col">
-            <p>Camisetas</p>
-            <p>Calças</p>
-            <p>Bonés</p>
-            <p>Headphones</p>
-            <p>Tênis</p>
+            <p className="pFooter">Camisetas</p>
+            <p className="pFooter">Calças</p>
+            <p className="pFooter">Bonés</p>
+            <p className="pFooter">Headphones</p>
+            <p className="pFooter">Tênis</p>
           </div>
           <div className="col">
-            <p>(85) 3051-3411</p>
-            <p>
+            <p className="pFooter">(85) 3051-3411</p>
+            <p className="pFooter">
               Av. Santos Dumont, 1510 - 1 andar - Aldeota, Fortaleza - CE,
               60150-161
             </p>

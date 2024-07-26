@@ -1,4 +1,4 @@
-import './ordenarpor.scss'
+import './Ordenarpor.scss'
 
 const Ordenar = () => {
 

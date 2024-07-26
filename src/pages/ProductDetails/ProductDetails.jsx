@@ -1,7 +1,7 @@
 import './ProductDetails.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useParams } from 'react-router-dom';
-import produtos from '../../json/produtosDetails.json';
+import produtos from '../../json/produtosListing.json';
 import Layout from '../Layout/Layout';
 import CarouselDetails from '../../components/CarouselDetails/CarouselDetails';
 import ProductListing from "../../components/ProductListing/ProductListing";
